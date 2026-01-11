@@ -3,20 +3,19 @@ import p2 from "../assets/projects/project2.jpg";
 
 export const projects = [
   {
-    title: "Barber Booking Website",
-    description: "Responsive barber portfolio + scheduling concept with clean UI.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    title: "RUNNERS - Music Event Ticket Booking WebApp",
+    description: "Responsive Online Ticket Booking + clean UI.",
+    tags: ["TypeScript", "JavaScript", "CSS" ],
     badge: "Featured",
     image: p1,
-    github: "https://github.com/jadu12git",
+    github: "https://github.com/jadu12git/run-apphttps://github.com/jadu12git/RUNNERS",
     live: "https://my-portfolio-theta-snowy-25.vercel.app/",
   },
   {
-    title: "Decision Risk Engine",
-    description: "API concept to evaluate decision risk + explanations.",
-    tags: ["Go", "APIs", "System Design"],
-    image: p2,
-    github: "https://github.com/jadu12git",
+    title: "jakthebarber - Barbershop Appointment Booking App",
+    description: "A responsive web application designed to streamline barbers appointment booking and online payments",
+    tags: ["HTML", "CSS", "Calendly"],
+    github: "https://github.com/jadu12git/jakthebarber",
     live: "",
   },
 ];
