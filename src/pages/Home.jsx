@@ -3,14 +3,13 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <main className="page hero-page">
+    <main className="page">
       <section className="glass hero">
-        <p className="kicker">Hello, I’m Joseph Adu</p>
-        <h1 className="hero-title">
-          Joseph <span>Adu</span>
+        <h1>
+          Hello, I&apos;m <span>Joseph Adu</span>.
         </h1>
 
-        <p className="hero-text">
+        <p>
           A Computer Science student and entrepreneur passionate about building technology,
           creating businesses, and inspiring the next generation of thinkers.
         </p>
@@ -27,3 +26,4 @@ export default function Home() {
     </main>
   );
 }
+
