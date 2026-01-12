@@ -16,6 +16,7 @@ export const projects = [
     description: "A responsive web application designed to streamline barbers appointment booking and online payments",
     tags: ["HTML", "CSS", "Calendly"],
     github: "https://github.com/jadu12git/jakthebarber",
+    image: p2,
     live: "",
   },
 ];
