@@ -48,7 +48,7 @@ body {
     var(--bg-image);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
 
   -webkit-font-smoothing: antialiased;
