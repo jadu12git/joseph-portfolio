@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Splash from "./components/Splash";
+import initParallax from "./components/Parallax";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -11,10 +12,16 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 export default function App() {
+  useEffect(() => {
+  initParallax();
+}, []);
   const [showSplash, setShowSplash] = useState(true);
 
   return (
     <>
+    
+      <div className="parallax-bg" />
+      
       {showSplash && <Splash onFinish={() => setShowSplash(false)} />}
 
       {!showSplash && (
