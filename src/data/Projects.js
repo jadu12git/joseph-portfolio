@@ -8,7 +8,7 @@ export const projects = [
     tags: ["TypeScript", "JavaScript", "CSS" ],
     badge: "Featured",
     image: p1,
-    github: "https://github.com/jadu12git/run-apphttps://github.com/jadu12git/RUNNERS",
+    github: "https://github.com/jadu12git/RUNNERS",
     live: "https://my-portfolio-theta-snowy-25.vercel.app/",
   },
   {
