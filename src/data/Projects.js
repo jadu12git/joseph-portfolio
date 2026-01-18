@@ -9,7 +9,7 @@ export const projects = [
     badge: "Featured",
     image: p1,
     github: "https://github.com/jadu12git/RUNNERS",
-    live: "https://my-portfolio-theta-snowy-25.vercel.app/",
+    live: "https://runners-gules.vercel.app/",
   },
   {
     title: "jakthebarber - Barbershop Appointment Booking App",
