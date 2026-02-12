@@ -44,3 +44,67 @@
   border: 1px solid #5fa8ff;
   color: #5fa8ff;
 }
+
+/* Experience card styles */
+.experience-page {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 80px;
+}
+
+.experience-card {
+  width: 100%;
+  max-width: 920px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid rgba(95,168,255,0.08);
+  border-radius: 16px;
+  padding: 28px 30px;
+  box-shadow: 0 8px 30px rgba(10, 15, 25, 0.45);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.experience-role {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.experience-org {
+  margin: 6px 0 0;
+  color: rgba(255,255,255,0.75);
+  font-size: 0.95rem;
+}
+
+.badge {
+  background: linear-gradient(90deg, #5fa8ff, #6dd3ff);
+  color: #021024;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.project-title {
+  margin: 16px 0 12px;
+  font-size: 1rem;
+  color: #e6eefc;
+}
+
+.experience-list {
+  margin: 0;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.9);
+}
