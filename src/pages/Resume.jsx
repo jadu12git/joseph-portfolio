@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../components/Container";
-import resumePDF from "../assets/resume.pdf";
+import resumePDF from "../assets/resume3.pdf";
 
 export default function Resume() {
   return (
