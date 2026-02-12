@@ -1,6 +1,21 @@
 import React from "react";
 import Container from "../components/Container";
 
+const skills = [
+  "JavaScript",
+  "React",
+  "HTML",
+  "CSS",
+  "Python",
+  "Git & GitHub",
+  "APIs",
+  "Firebase",
+  "UI/UX",
+  "Problem Solving",
+  "Team Collaboration",
+  "Entrepreneurship",
+];
+
 export default function About() {
   return (
     <main className="page">
