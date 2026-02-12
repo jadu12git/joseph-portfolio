@@ -1,15 +1,28 @@
 import React from "react";
-import Container from "../components/Container";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <Container title="Hello" subtitle="Welcome to my portfolio">
-      <div style={{ padding: "24px 0" }}>
-        <p style={{ maxWidth: 780, margin: "0 auto", color: "rgba(255,255,255,0.9)" }}>
-          I'm a builder focused on thoughtful UX and practical systems. Browse my projects
-          and experience to see what I've shipped.
+    <main className="page">
+      <section className="glass hero">
+        <h1>
+          Hello, I&apos;m <span>Joseph Adu</span>.
+        </h1>
+
+        <p>
+          A Computer Science student and entrepreneur passionate about building 
+technology,                                                                               creating businesses, and inspiring the next generation of thinkers.
         </p>
-      </div>
-    </Container>
+
+        <div className="hero-actions">
+          <Link to="/projects" className="btn">
+            Explore My Projects
+          </Link>
+          <Link to="/experience" className="btn ghost">
+            My Experience
+          </Link>
+        </div>
+      </section>
+    </main>
   );
 }
