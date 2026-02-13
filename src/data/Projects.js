@@ -1,7 +1,6 @@
 import p1 from "../assets/projects/project1.jpg";
 import p2 from "../assets/projects/project2.jpg";
 import p3 from "../assets/projects/project3.jpg";
-
 export const projects = [
   {
     title: "TokenSqueeze — A Semantic Image Optimizer",
@@ -9,7 +8,7 @@ export const projects = [
       "Task-aware image preprocessing and token-optimization pipeline for multimodal models.",
     tags: ["Python", "Vision LLM APIs", "Multimodal Systems", "API Integration"],
     badge: "NexHacks 2026",
-    image: "p3",
+    image: p3,
     github: "https://github.com/jadu12git/semantic_image_optimizer",
     live: "",
   },
