@@ -1,6 +1,7 @@
 import p1 from "../assets/projects/project1.jpg";
 import p2 from "../assets/projects/project2.jpg";
 import p3 from "../assets/projects/project3.jpg";
+import p4 from "../assets/projects/project4.jpg";
 export const projects = [
   {
     title: "TokenSqueeze — A Semantic Image Optimizer",
@@ -10,6 +11,16 @@ export const projects = [
     badge: "NexHacks 2026",
     image: p3,
     github: "https://github.com/jadu12git/semantic_image_optimizer",
+    live: "",
+  },
+  {
+    title: "NavGuard - Navigation Validation & Telemetry Analysis System",
+    description:
+      "A system that validates navigation and analyzes telemetry data for autonomous vehicles.",
+    tags: ["Python", "FastAPI", "Pandas", "NumPy", "Pytest", "GitHub Actions", "Linux"],
+    badge: "NexHacks 2026",
+    image: p4,
+    github: "https://github.com/jadu12git/navguard",
     live: "",
   },
   {
